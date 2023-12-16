@@ -1,4 +1,5 @@
-# 7.3 ms    11.2ms
+# day1 - task1 - result 53921 - 8.1532 ms
+# day1 - task2 - result 54676 - 8.8811 ms
 # a - treat as single string
 '''
 On each line, the calibration value can be found by combining the first digit and the last digit (in that order) to form a single two-digit number.
@@ -28,7 +29,7 @@ def intstr2int(line: str) -> str:
 def task1():
     start_time = time.time()
     int_sum_across_lines = 0
-    file = open('day1/day1_input.txt', 'r')
+    file = open('day1/input.txt', 'r')
     lines = file.readlines()
     for line in lines:
         line_intsum = string2int_sum(line)
@@ -39,7 +40,7 @@ def task1():
 def task2():
     start_time = time.time()
     int_sum_across_lines = 0
-    file = open('day1/day1_input.txt', 'r')
+    file = open('day1/input.txt', 'r')
     lines = file.readlines()
     mystr = '\t'.join([line.strip() for line in lines])
     mystr = intstr2int(mystr)
