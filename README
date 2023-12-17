@@ -11,3 +11,7 @@ day1 - task1 - result 53921 - 6.5556 ms
 day1 - task2 - result 54676 - 7.4306 ms
 day2 - task1 - result 2176 - 5.8405 ms
 day2 - task2 - result 63700 - 13.3028 ms
+
+
+day4 - task1 - result 21558 - 7.8416 ms
+day4 - task2 - result 10425665 - 3.9482 ms
